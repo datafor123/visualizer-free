@@ -10,7 +10,7 @@
     <type>Platform</type>
     <img>http://www.webdetails.pt/ficheiros/mk.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
-    <name>Pentaho Marketplace</name>
+    <name>Pentaho Marketplace test test</name>
     <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
     <author>Pentaho</author>

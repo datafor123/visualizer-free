@@ -44,8 +44,8 @@
       https://help.pentaho.com/Documentation/9.0/Setup/Manage_the_Pentaho_Server#Enable_JPivot_in_the_User_Console
     </documentation_url>
 
-    <author>Pentaho</author>
-    <author_url>http://pentaho.com</author_url>
+    <author>Datafor</author>
+    <author_url>http://datafor.com.cn</author_url>
     <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
 
     <versions>
@@ -58,7 +58,7 @@
 
         <!-- TODO update this link when the final build for 9.0.0.1 SP is done -->
         <package_url>
-          https://pentaho.box.com/shared/static/n6rh1xlxd9kcmjka6dxr4guhvmj0e9p1.zip
+          https://github.com/datafor123/visualizer-free/raw/master/datafor.zip
         </package_url>
 
         <min_parent_version>9.0</min_parent_version>

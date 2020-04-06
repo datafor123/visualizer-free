@@ -4,35 +4,73 @@
   <!-- ***************** -->
   <!-- BA Server Plugins -->
   <!-- ***************** -->
-  <!--
+ 
+  
   <market_entry>
-    <id>marketplace</id>
+    <id>datafor-Visualizer</id>
     <type>Platform</type>
-    <img>http://www.webdetails.pt/ficheiros/mk.png</img>
-    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
-    <name>Pentaho Marketplace test test</name>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
-    <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
+
+    <name>Visualizer Plugin</name>
+    <description>
+      JPivot is a JSP custom tag library that renders an OLAP table and let users
+      perform typical OLAP navigations like slice and dice, drill down and roll up.
+      It uses Mondrian as its OLAP Server. JPivot also supports XMLA datasource access.
+
+      See the installation instructions, for more information.
+    </description>
+
+    <img/>
+    <small_img/>
+
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+
+    <license>CPL-1.0</license>
+
+    <installation_notes>
+      To function, this plugin requires that a JAR dependency is installed in the Pentaho Server - the JavaServer Faces API.
+      This dependency has known security vulnerabilities, which are described in the security issue CVE-2008-1285.
+      Installing this dependency in the Pentaho Server compromises its security.
+
+      To install the JAR dependency, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1_02',
+      place it in the 'tomcat/webapps/pentaho/WEB-INF/lib' folder and finally restart the Pentaho Server.
+    </installation_notes>
+
+    <documentation_url>
+      https://help.pentaho.com/Documentation/9.0/Setup/Manage_the_Pentaho_Server#Enable_JPivot_in_the_User_Console
+    </documentation_url>
+
     <author>Pentaho</author>
     <author_url>http://pentaho.com</author_url>
-    <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
-    <license>MPL 2.0</license>
-    <dependencies>CDF, CDA, CDE</dependencies>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+
     <versions>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.analytical-labs.com/job/Webdetails-Marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Trunk Snapshot. Install at your own risk...</description>
-        <build_id>4</build_id>
+        <branch>9.0.0.1</branch>
+        <version>9.0.0.1-445</version>
+
+        <name>9.0</name>
+        <description>9.0 Platform Release</description>
+
+        <!-- TODO update this link when the final build for 9.0.0.1 SP is done -->
+        <package_url>
+          https://pentaho.box.com/shared/static/n6rh1xlxd9kcmjka6dxr4guhvmj0e9p1.zip
+        </package_url>
+
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
+
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
       </version>
     </versions>
-    <screenshots>
-      <screenshot></screenshot>
-    </screenshots>
   </market_entry>
-  -->
 
   <market_entry>
     <id>pentaho-marketplace</id>

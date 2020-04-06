@@ -5,6 +5,35 @@
   <!-- BA Server Plugins -->
   <!-- ***************** -->
  
+  <!--
+  <market_entry>
+    <id>marketplace</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/mk.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <name>Pentaho Marketplace</name>
+    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE</dependencies>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>http://ci.analytical-labs.com/job/Webdetails-Marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+        <build_id>4</build_id>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot></screenshot>
+    </screenshots>
+  </market_entry>
+  -->
   
   <market_entry>
     <id>datafor-Visualizer</id>
@@ -58,7 +87,7 @@
 
         <!-- TODO update this link when the final build for 9.0.0.1 SP is done -->
         <package_url>
-          https://github.com/datafor123/visualizer-free/raw/master/datafor.zip
+          http://www.datafor.com.cn/wp-content/uploads/datafor/datafor.zip
         </package_url>
 
         <min_parent_version>9.0</min_parent_version>

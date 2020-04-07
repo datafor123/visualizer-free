@@ -81,7 +81,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>3.2</version>
         <name>Stable 3.2</name>
         <package_url>
-         http://www.datafor.com.cn/wp-content/uploads/datafor/datafor.zip
+         https://github.com/datafor123/visualizer-free/raw/master/datafor.zip
         </package_url>
         <description>Release 3.2</description>
         <min_parent_version>3.2</min_parent_version>

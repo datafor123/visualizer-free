@@ -35,71 +35,68 @@
   </market_entry>
   -->
   
-  <market_entry>
-    <id>datafor-Visualizer</id>
+<market_entry>
+    <id>datafor-visualizer</id>
     <type>Platform</type>
-
-    <name>Visualizer Plugin</name>
-    <description>
-      JPivot is a JSP custom tag library that renders an OLAP table and let users
-      perform typical OLAP navigations like slice and dice, drill down and roll up.
-      It uses Mondrian as its OLAP Server. JPivot also supports XMLA datasource access.
-
-      See the installation instructions, for more information.
-    </description>
-
-    <img/>
+    <img>https://github.com/datafor123/visualizer-free/raw/master/resource/datafor.png</img>
     <small_img/>
-
+    <name>Visualizer</name>
     <category>
-      <name>Analysis</name>
+      <name>Dashboards</name>
       <parent>
         <name>Apps</name>
       </parent>
     </category>
+    <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
+    <description>
+      <![CDATA[
+<article>
+<h1>Visualizer-free version</h1>
+<h2>Some of the features in this 0.0.6 release:</h2>
+<ul>
+<li>Data visualization and analysis</li>
+<li>Dashboard/Report </li>
+</ul>
 
-    <license>CPL-1.0</license>
-
-    <installation_notes>
-      To function, this plugin requires that a JAR dependency is installed in the Pentaho Server - the JavaServer Faces API.
-      This dependency has known security vulnerabilities, which are described in the security issue CVE-2008-1285.
-      Installing this dependency in the Pentaho Server compromises its security.
-
-      To install the JAR dependency, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1_02',
-      place it in the 'tomcat/webapps/pentaho/WEB-INF/lib' folder and finally restart the Pentaho Server.
-    </installation_notes>
-
-    <documentation_url>
-      https://help.pentaho.com/Documentation/9.0/Setup/Manage_the_Pentaho_Server#Enable_JPivot_in_the_User_Console
-    </documentation_url>
-
+<h2>Features:</h2>
+<ul>
+<li>Easy to use: drag-and-drop design, intelligent data panel, WYSIWYG, suitable for business personnel.</li>
+<li>Rich visualization elements: Rich visualization elements, including Bar, Line, Area, Pie, Map etc.</li>
+<li>Style: rich personalized style settings, provide style templates, custom CSS advanced style customization.</li>
+</ul>
+</article>
+<br><br>
+For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>visit our site</a>.<br>
+      ]]>
+    </description>
     <author>Datafor</author>
-    <author_url>http://datafor.com.cn</author_url>
-    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
-
+    <author_url>http://www.datafor.com.cn</author_url>
+    <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
+    <license>Free</license>
+    <dependencies>mondrian</dependencies>
     <versions>
       <version>
-        <branch>9.0.0.1</branch>
-        <version>9.0.0.1-445</version>
-
-        <name>9.0</name>
-        <description>9.0 Platform Release</description>
-
-        <!-- TODO update this link when the final build for 9.0.0.1 SP is done -->
+        <branch>STABLE</branch>
+        <version>3.2</version>
+        <name>Stable 3.2</name>
         <package_url>
-          http://www.datafor.com.cn/wp-content/uploads/datafor/datafor.zip
+         http://www.datafor.com.cn/wp-content/uploads/datafor/datafor.zip
         </package_url>
-
-        <min_parent_version>9.0</min_parent_version>
-        <max_parent_version>9.0.99</max_parent_version>
-
+        <description>Release 3.2</description>
+        <min_parent_version>3.2</min_parent_version>
         <development_stage>
-          <lane>Customer</lane>
-          <phase>2</phase>
+          <lane>Community</lane>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
+    <screenshots>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case2.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case3.jpg</screenshot>
+    </screenshots>
   </market_entry>
+  
 
   <market_entry>
     <id>pentaho-marketplace</id>
@@ -3185,79 +3182,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     </screenshots>
   </market_entry>
 
-  <market_entry>
-    <id>IvyDC</id>
-    <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivydc-small-short.png</img>
-    <small_img/>
-    <name>IvyDC - Ivy Dashboard Components</name>
-    <category>
-      <name>Dashboards</name>
-      <parent>
-        <name>Apps</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
-    <description>
-      <![CDATA[
-               <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivydc-small-full.png" />
-<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
-<br>
-<iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
-<br>
-<h2>Some of the features in this 0.0.6 release:</h2>
-<ul>
-<li>New template</li>
-<li>Comparison / Pyramid Chart</li>
-<li>Funnel Chart</li>
-<li>Summary Component</li>
-<li>Export Data Component</li>
-<li>Pentaho Analyzer Component</li>
-<li>Ion Range Slider Component</li>
-<li>JustGage Component</li>
-<li>Vectormap Component</li>
-<li>Videoplayer Component</li>
-<li>Samples</li>
-<li>Documentation</li>
-</ul>
-<h2>What is the road map for the next version?</h2>
-<ul>
-<li>...</li>
-</ul>
-</article>
-<br><br>
-For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
-Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDC'>GitHub</a>
-      ]]>
-    </description>
-    <author>Ivy Information Systems</author>
-    <author_url>http://www.ivy-is.co.uk/</author_url>
-    <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
-    <license>MPL 2.0</license>
-    <dependencies>CDE, CDA, CDF</dependencies>
-    <versions>
-      <version>
-        <branch>STABLE</branch>
-        <version>0.0.6</version>
-        <name>Stable 0.0.6</name>
-        <package_url>
-         http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fivylabs%2Ffiles%2FPentaho%2FBI%2520Server%2FIvy%2520IS%2520Dashboard%2520Components%2F0.0.6%2F&amp;ts=1484146649&amp;use_mirror=netix
-        </package_url>
-        <description>Release 0.0.6</description>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <screenshots>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_samples.png</screenshot>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_docs1.png</screenshot>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/comparison_chart.png</screenshot>
-    </screenshots>
-  </market_entry>
 
   <market_entry>
     <id>IvyGS</id>

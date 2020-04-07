@@ -40,7 +40,7 @@
     <type>Platform</type>
     <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
     <small_img/>
-    <name>Datafor-visualizer</name>
+    <name>Datafor-visualizer(free version)</name>
     <category>
       <name>Dashboards</name>
       <parent>
@@ -51,7 +51,7 @@
     <description>
       <![CDATA[
 <article>
-<h1>Visualizer-free version</h1>
+<h1>Visualizer usage scenarios:</h1>
 <ul>
 <li>Data visualization and analysis</li>
 <li>Dashboards/Reports </li>

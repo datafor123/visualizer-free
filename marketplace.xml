@@ -78,13 +78,13 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>3.2</version>
-        <name>Stable 3.2</name>
+        <version>3.30</version>
+        <name>Stable 3.30</name>
         <package_url>
          https://github.com/datafor123/visualizer-free/raw/master/datafor.zip
         </package_url>
-        <description>Release 3.2</description>
-        <min_parent_version>3.2</min_parent_version>
+        <description>Release 3.30</description>
+        <min_parent_version>3.30</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>

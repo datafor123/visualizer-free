@@ -77,7 +77,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <dependencies>mondrian</dependencies>
     <versions>
       <version>
-        <branch>free</branch>
+        <branch>STABLE</branch>
         <version>3.30</version>
         <name>Stable 3.30</name>
         <package_url>

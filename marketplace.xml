@@ -13145,7 +13145,7 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
 		<version>6.06</version>
 		<name>Stable 6.06</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.08.2.zip/download
 		</package_url>
 		<description>Release 6.06</description>
 		<min_parent_version>9.00</min_parent_version>
@@ -13243,7 +13243,7 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
     <small_img/>
     <name>Modeler</name>
     <category>
-      <name>Dashboards</name>
+      <name>Analysis</name>
       <parent>
         <name>Apps</name>
       </parent>
@@ -13277,7 +13277,7 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
 		<version>3.08</version>
 		<name>Stable 3.08</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Modeler/Modeler-3.08.zip/download
 		</package_url>
 		<description>Release 3.08</description>
 		<min_parent_version>3.00</min_parent_version>

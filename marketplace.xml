@@ -4,7 +4,6 @@
   <!-- ***************** -->
   <!-- BA Server Plugins -->
   <!-- ***************** -->
- 
   <!--
   <market_entry>
     <id>marketplace</id>
@@ -12,7 +11,7 @@
     <img>http://www.webdetails.pt/ficheiros/mk.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
     <name>Pentaho Marketplace</name>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
     <author>Pentaho</author>
     <author_url>http://pentaho.com</author_url>
@@ -34,85 +33,20 @@
     </screenshots>
   </market_entry>
   -->
-  
-<market_entry>
-    <id>datafor</id>
-    <type>Platform</type>
-    <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
-    <small_img/>
-    <name>Datafor-visualizer(free version)</name>
-    <category>
-      <name>Dashboards</name>
-      <parent>
-        <name>Apps</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
-    <description>
-      <![CDATA[
-<article>
-<h1>Visualizer usage scenarios:</h1>
-<ul>
-<li>Data visualization and analysis</li>
-<li>Dashboards/Reports </li>
-<li>Agile BI </li>
-</ul>
-
-<h2>Features:</h2>
-<ul>
-<li>Easy to use: drag-and-drop design, intelligent data panel, WYSIWYG, suitable for business personnel.</li>
-<li>Visualization elements: including Bar chart, Line chart, Area chart, Pie chart, Map etc.</li>
-<li>Style: rich style setting items, including font, color, layout, size.</li>
-<li>Analysis: drill-down, linkage, jump, rotation, slicing, advanced filtering, etc.</li>
-</ul>
-</article>
-<br><br>
-For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>please visit our site</a>.<br>
-      ]]>
-    </description>
-    <author>Shanghai Datafor</author>
-    <author_url>http://www.datafor.com.cn</author_url>
-    <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
-    <license>Free</license>
-    <dependencies>mondrian</dependencies>
-    <versions>
-      <version>
-        <branch>free</branch>
-        <version>3.3</version>
-        <name>Stable 3.3</name>
-		<build_id>datafor-2020-07-15</build_id>
-        <package_url>
-         https://github.com/datafor123/visualizer-free/raw/master/datafor.zip
-        </package_url>
-        <description>Release 3.3</description>
-        <min_parent_version>7.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <screenshots>
-      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
-      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case2.jpg</screenshot>
-      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case3.jpg</screenshot>
-    </screenshots>
-  </market_entry>
-  
 
   <market_entry>
     <id>pentaho-marketplace</id>
     <type>Platform</type>
     <img>http://www.webdetails.pt/ficheiros/marketplace_logo.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/marketplace_logo.png</small_img>
-    <name>Pentaho Marketplace test123</name>
+    <name>Pentaho Marketplace </name>
     <category>
       <name>Admin</name>
       <parent>
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
@@ -129,7 +63,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>6.0.0.0-353</version>
         <name>Latest snapshot build</name>
         <package_url>
-          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
+          https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
         </package_url>
         <description>Build for Pentaho 6.0</description>
         <build_id/>
@@ -156,7 +90,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
@@ -221,10 +155,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -245,7 +179,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/6.1.0.1-196/pentaho-cdf-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -266,7 +200,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -287,7 +221,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -309,7 +243,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -329,7 +263,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.1.0.0-365/pentaho-cdf-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.1.0.0-365/pentaho-cdf-samples-8.1.0.0-365.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/8.1.0.0-365/pentaho-cdf-samples-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -350,7 +284,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.2.0.0-342/pentaho-cdf-8.2.0.0-342.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.2.0.0-342/pentaho-cdf-samples-8.2.0.0-342.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/8.2.0.0-342/pentaho-cdf-samples-8.2.0.0-342.zip
         </samples_url>
         <description>8.2 Platform Release</description>
         <build_id/>
@@ -372,7 +306,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
             https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.3.0.0-371/pentaho-cdf-8.3.0.0-371.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.3.0.0-371/pentaho-cdf-samples-8.3.0.0-371.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-samples/8.3.0.0-371/pentaho-cdf-samples-8.3.0.0-371.zip
         </samples_url>
         <description>8.3 Platform Release</description>
         <build_id/>
@@ -513,10 +447,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -533,10 +467,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -554,10 +488,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -574,10 +508,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -594,10 +528,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -614,10 +548,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.1.0.0-365/cda-8.1.0.0-365.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/8.1.0.0-365/cda-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.1.0.0-365/cda-samples-8.1.0.0-365.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/8.1.0.0-365/cda-samples-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -635,10 +569,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>8.2.0.0-342</version>
         <name>8.2</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.2.0.0-342/cda-8.2.0.0-342.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/8.2.0.0-342/cda-8.2.0.0-342.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.2.0.0-342/cda-samples-8.2.0.0-342.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/8.2.0.0-342/cda-samples-8.2.0.0-342.zip
         </samples_url>
         <description>8.2 Platform Release</description>
         <build_id/>
@@ -656,10 +590,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>8.3.0.0-371</version>
         <name>8.3</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.3.0.0-371/cda-8.3.0.0-371.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda/8.3.0.0-371/cda-8.3.0.0-371.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.3.0.0-371/cda-samples-8.3.0.0-371.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cda-samples/8.3.0.0-371/cda-samples-8.3.0.0-371.zip
         </samples_url>
         <description>8.3 Platform Release</description>
         <build_id/>
@@ -828,6 +762,28 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
           <phase>2</phase>
         </development_stage>
       </version>
+
+      <version>
+        <branch>9.1.0.0</branch>
+        <version>9.1.0.0-101</version>
+
+        <name>9.1</name>
+        <description>9.1 Platform Release</description>
+
+        <package_url>
+          https://public.nexus.pentaho.org/repository/omni/org/pentaho/jpivot-plugin/9.1.0.0-101/jpivot-plugin-9.1.0.0-101.zip
+        </package_url>
+
+        <min_parent_version>9.1</min_parent_version>
+        <max_parent_version>9.1.99</max_parent_version>
+
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+
     </versions>
   </market_entry>
 
@@ -868,10 +824,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -889,10 +845,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -910,10 +866,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -930,10 +886,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -950,10 +906,10 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -1158,7 +1114,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
         </package_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -1176,7 +1132,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
         </package_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -1193,7 +1149,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
         </package_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -1210,7 +1166,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
         </package_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -1228,7 +1184,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
         </package_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -1246,7 +1202,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/ctools/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/org/pentaho/ctools/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
         </package_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -1263,7 +1219,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>8.2.0.0-342</version>
         <name>8.2</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/ctools/cgg/8.2.0.0-342/cgg-8.2.0.0-342.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/org/pentaho/ctools/cgg/8.2.0.0-342/cgg-8.2.0.0-342.zip
         </package_url>
         <description>8.2 Platform Release</description>
         <build_id/>
@@ -1280,7 +1236,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>8.3.0.0-371</version>
         <name>8.3</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/ctools/cgg/8.3.0.0-371/cgg-8.3.0.0-371.zip
+            https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/org/pentaho/ctools/cgg/8.3.0.0-371/cgg-8.3.0.0-371.zip
         </package_url>
         <description>8.3 Platform Release</description>
         <build_id/>
@@ -1510,6 +1466,24 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/8
       </version>
 
 
+   <version>
+        <branch>9.0.0.0</branch>
+        <version>9.0.0.0-9.0.0.0-423</version>
+        <name>9.0</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/9.0.0.0-423/sparkl-9.0.0.0-423.zip
+        </package_url>
+        <description>9.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
 
     </versions>
     <screenshots>
@@ -1694,6 +1668,25 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>3</phase>
         </development_stage>
       </version>
+      
+      <version>
+        <branch>STABLE</branch>
+        <version>9.0-20.10.19</version>
+        <name>Stable</name>
+        <package_url>
+			https://github.com/webdetails/cst/releases/download/v9.0-20.10.19/cst-9.0-20.10.19.zip
+        </package_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.1.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      
+      
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/ficheiros/cst/screenshots/cst-launcher.png</screenshot>
@@ -1783,11 +1776,11 @@ A landing tab can optionally be presented, which can be used to any of the prede
           https://ctools.pentaho.com/files/cte/cte-8.0-SNAPSHOT.zip
         </package_url>
         <description>
-          Build for Pentaho 7.x and 8.x
+          Build for Pentaho 7.x and 8.x and 9.0
         </description>
         <build_id>1</build_id>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.4.99</max_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -2522,7 +2515,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <name>Stable (Community)</name>
         <package_url>http://downloads.meteorite.bi/saiku3/saiku-plugin-p7.1-3.90.zip</package_url>
         <description>3.90 release for the Saiku Plugin.</description>
-        <max_parent_version>8.1</max_parent_version>
+        <max_parent_version>9.9</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
           <lane>Community</lane>
@@ -3184,6 +3177,79 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     </screenshots>
   </market_entry>
 
+  <market_entry>
+    <id>IvyDC</id>
+    <type>Platform</type>
+    <img>http://ivy-is.co.uk/images/logos/ivydc-small-short.png</img>
+    <small_img/>
+    <name>IvyDC - Ivy Dashboard Components</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
+    <description>
+      <![CDATA[
+               <article>
+               <img src="http://ivy-is.co.uk/images/logos/ivydc-small-full.png" />
+<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
+<br>
+<iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
+<br>
+<h2>Some of the features in this 0.0.6 release:</h2>
+<ul>
+<li>New template</li>
+<li>Comparison / Pyramid Chart</li>
+<li>Funnel Chart</li>
+<li>Summary Component</li>
+<li>Export Data Component</li>
+<li>Pentaho Analyzer Component</li>
+<li>Ion Range Slider Component</li>
+<li>JustGage Component</li>
+<li>Vectormap Component</li>
+<li>Videoplayer Component</li>
+<li>Samples</li>
+<li>Documentation</li>
+</ul>
+<h2>What is the road map for the next version?</h2>
+<ul>
+<li>...</li>
+</ul>
+</article>
+<br><br>
+For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
+Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDC'>GitHub</a>
+      ]]>
+    </description>
+    <author>Ivy Information Systems</author>
+    <author_url>http://www.ivy-is.co.uk/</author_url>
+    <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDE, CDA, CDF</dependencies>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>0.0.6</version>
+        <name>Stable 0.0.6</name>
+        <package_url>
+         http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fivylabs%2Ffiles%2FPentaho%2FBI%2520Server%2FIvy%2520IS%2520Dashboard%2520Components%2F0.0.6%2F&amp;ts=1484146649&amp;use_mirror=netix
+        </package_url>
+        <description>Release 0.0.6</description>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_samples.png</screenshot>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_docs1.png</screenshot>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/comparison_chart.png</screenshot>
+    </screenshots>
+  </market_entry>
 
   <market_entry>
     <id>IvyGS</id>
@@ -6585,7 +6651,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/MySQL</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -6698,9 +6764,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>PDI 8.2 or later</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-post-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-post-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>8.2</min_parent_version>
       <development_stage>
         <lane>Customer</lane>
@@ -6709,9 +6775,9 @@ any translation issues or suggestions for improvement
       </version>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>Pre PDI 8.2</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-pre-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-pre-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>7.0</min_parent_version>
       <max_parent_version>8.1.99</max_parent_version>
       <development_stage>
@@ -6824,7 +6890,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin also contains the NuoDB JDBC Driver</description>
     <author>NuoDB</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/NuoDB</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7027,12 +7093,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the SSH2 Get and SSH2 Put job entries which were removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/ssh2-plugin</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -7062,12 +7128,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Aggregate Rows step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/aggregate-rows</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -7097,12 +7163,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Get Previous Row Fields step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/get-previous-row-field</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -7132,12 +7198,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Streaming XML Input step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input-stream</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -7167,12 +7233,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the XML Input step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -7204,7 +7270,7 @@ any translation issues or suggestions for improvement
       using a COPY FROM STDIN statement through JDBC
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7244,12 +7310,12 @@ any translation issues or suggestions for improvement
       Please consult the documentation referenced below as well as the linked source code.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>4.4</version>
-        <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
+        <package_url>https://pentaho-community.atlassian.net/wiki/download/attachments/23531011/DummyPlugin.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
         <development_stage>
 <lane>Community</lane>
@@ -7411,13 +7477,13 @@ With this plugin you can:
     </category>
     <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-349</version>
         <package_url>
-          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
+          https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
         </package_url>
         <development_stage>
           <lane>Community</lane>
@@ -8443,7 +8509,7 @@ With this plugin you can:
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8484,7 +8550,7 @@ With this plugin you can:
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8632,7 +8698,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Apache+Kafka+Consumer</documentation_url>
     <description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
     <author_url>http://ruckuswireless.com</author_url>
@@ -8669,7 +8735,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Producer</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Apache+Kafka+Producer</documentation_url>
     <description>The plug-in allows sending binary messages over Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
     <author_url>http://ruckuswireless.com</author_url>
@@ -8797,7 +8863,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
     <description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol
       Buffers.
     </description>
@@ -8918,7 +8984,7 @@ With this plugin you can:
       result.
       This step detects identical, changed, added and removed rows.
     </description>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Compare+Fields</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Compare+Fields</documentation_url>
     <author>Matt Casters / Pentaho</author>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
@@ -9282,7 +9348,7 @@ With this plugin you can:
       Upsert.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -9827,6 +9893,15 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <author_url>http://funpdi.blogspot.com</author_url>
     <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
     <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.2</version>
+        <package_url>https://github.com/Therigy/pdi-script-extension-points/releases/download/v1.2.0/pdi-script-extension-points-1.2.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
       <version>
         <branch>Stable</branch>
         <version>1.1</version>
@@ -10457,105 +10532,6 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
   </versions>
 </market_entry>
-<market_entry>
-  <id>SelfServiceBI</id>
-  <type>Platform</type>
-  <name>Self Service BI</name>
-  <category>
-    <name>Dashboards</name>
-    <parent>
-      <name>Apps</name>
-    </parent>
-  </category>
-  <description>
-          <![CDATA[
-<p>Pentaho Self Service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart, High Chart, Fusion Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.</p>
-<br/>
-<p>Here User can create or use existing Saiku Analysis view or CDA data sources to access the data.</p><br />
-<p><a target='NO_BLANK' href='https://github.com/SPECUSA/SelfServiceBI/raw/master/User_Guide-Self_Service_BI.pdf/'>Click here</a> to download User Guide for this plugin.</p><br/>
-      ]]>
-  </description>
-  <author>SPEC-INDIA</author>
-  <author_url>http://www.spec-india.com/</author_url>
-  <dependencies>CDA, CCC, Saiku Analytics, Pentaho 8.0/8.1</dependencies>
-  <forum_url>https://github.com/SPECUSA/SelfServiceBI</forum_url>
-  <cases_url>https://github.com/SPECUSA/SelfServiceBI</cases_url>
-  <license_name>GNU General Public License</license_name>
-  <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
-  <support_level>PROFESSIONALY_SUPPORTED</support_level>
-  <versions>
-    <version>
-      <branch>STABLEP6</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p7.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>6.9</max_parent_version>
-      <min_parent_version>5.4</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP7</branch>
-        <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p7.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>7.0.99</max_parent_version>
-      <min_parent_version>7.0</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP7_1</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-       <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p7_1.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>7.1.99</max_parent_version>
-      <min_parent_version>7.1</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP8</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p8.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>8.0.99</max_parent_version>
-      <min_parent_version>8.0</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP8_1</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p8_1.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>8.0.99</max_parent_version>
-      <min_parent_version>8.0</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-  </versions>
-  <screenshots>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-2.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-3.png</screenshot>
-  </screenshots>
-</market_entry>
   <market_entry>
     <id>waqe</id>
     <type>Platform</type>
@@ -11118,7 +11094,7 @@ Capabilities:
       PDI 6.0+.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -11864,7 +11840,7 @@ Capabilities:
       This plugin contains the Apache2 Odoo Java API, and is based on the old OpenERP plugin from De Bortoli Wines Pty Limited (Australia).
       Note: you probably also want to copy this plugin to your Pentaho BA server (server/pentaho-server/pentaho-solutions/system/kettle/plugins).
     </description>
-    <documentation_url>http://wiki.pentaho.com/display/EAI</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI</documentation_url>
     <author>West IT Solutions</author>
     <author_url>https://www.west.nl/</author_url>
     <author_logo>https://www.west.nl/pentaho-marketplace/West-logo-small.png</author_logo>
@@ -12290,9 +12266,9 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.0.2</version>
-        <name>1.0.2</name>
-        <package_url>https://github.com/HiromuHota/pdi-git-plugin/releases/download/1.0.2/pdi-git-plugin-1.0.2-jar-with-dependencies.zip</package_url>
+        <version>1.1.1</version>
+        <name>1.1.1</name>
+        <package_url>https://github.com/HiromuHota/pdi-git-plugin/releases/download/1.1.1/pdi-git-plugin-1.1.1-jar-with-dependencies.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -12993,14 +12969,14 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </category>
     <description>This plugin is for Pentaho Data integration (ETL) a.k.a kettle. Loads as: OpenERPInput, OpenERPOutput, OpenERPDelete</description>
     <author>Pentaho</author>
-    <documentation_url>https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>8.2</branch>
         <version>8.2.0.0-342</version>
         <build_id/>
         <name>Build for Pentaho 8.2</name>
-        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/di/plugins/kettle-openerp-plugin/8.2.0.0-342/kettle-openerp-plugin-8.2.0.0-342.zip</package_url>
+        <package_url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/org/pentaho/di/plugins/kettle-openerp-plugin/8.2.0.0-342/kettle-openerp-plugin-8.2.0.0-342.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/openerp</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -13016,7 +12992,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </license_text>
     <support_level>NOT_SUPPORTED</support_level>
   </market_entry>
-    <market_entry>
+  <market_entry>
   <id>read-excel-header</id>
   <type>Step</type>
   <name>Read Excel Header</name>
@@ -13041,8 +13017,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
  <versions>
     <version>
       <branch>Stable</branch>
-      <version>1.0.3</version>
-      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/v1.0.3/ReadExcelHeader-1.0.3.zip</package_url>
+      <version>1.2.4</version>
+      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/226725184/ReadExcelHeader.zip</package_url>
       <development_stage>
         <lane>Community</lane>
         <phase>1</phase>
@@ -13064,7 +13040,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <description>This plugin allow to generate charts with javascript libraries like Google chart.This plugin has been developed as a final project of computer engineering at the university of Alicante,Spain.
     </description>
     <author>Daniel Pascual Parrondo</author>
-    <img>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto2.PNG</img>
+    <img>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matrculados_por_genero_grafica.PNG</img>
     <documentation_url>https://github.com/danielpascual95/GenerateChart-wiki/blob/master/wiki</documentation_url>
     <versions>
       <version>
@@ -13085,9 +13061,10 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
      <screenshots> 
-    <screenshot>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto.PNG</screenshot>
-    <screenshot>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto2.PNG</screenshot>
-  </screenshots>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matriculados_por_genero.PNG</screenshot>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matriculados_por_genero_ETL.PNG</screenshot>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matrculados_por_genero_grafica.PNG</screenshot>
+	</screenshots>
   </market_entry>
   
 <market_entry>
@@ -13126,4 +13103,195 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
   </market_entry>  
   
   
+ <market_entry>
+    <id>datafor</id>
+    <type>Platform</type>
+    <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
+    <small_img/>
+    <name>Visualizer</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://help.datafor.com.cn/docs/en/</documentation_url>
+    <description>
+      <![CDATA[
+<article>
+<h1>Visualizer is a self-service BI tool that offers intuitive data visualization and analysis, empowering users to explore, analyze, and make informed decisions efficiently.</h1>
+
+<h2>Features:</h2>
+<ul>
+<li>Powerful analytics for various data types.</li>
+<li>Easy-to-use reports and dashboards.</li>
+<li>Self-service analytics for non-tech users.</li>
+<li>Real-time monitoring of business operations.</li>
+<li>Mobile access for data-driven decisions.</li>
+</ul>
+</article>
+<br><br>
+For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>please visit our site</a>.<br>
+      ]]>
+    </description>
+    <author>Datafor</author>
+    <author_url>http://www.datafor.com.cn</author_url>
+    <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
+    <license>Commercial</license>
+    <dependencies>mondrian</dependencies>
+    <versions>
+	<version>
+		<branch>STABLE</branch>
+		<version>6.06</version>
+		<name>Stable 6.06</name>
+		<package_url>
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
+		</package_url>
+		<description>Release 6.06</description>
+		<min_parent_version>9.00</min_parent_version>
+		<development_stage>
+			<lane>Community</lane>
+			<phase>4</phase>
+		</development_stage>
+	  </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case2.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case3.jpg</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>rocketchat-message-client</id>
+    <type>Step</type>
+    <name>Rocketchat Message Client</name>
+    <category>
+        <name>Enhancements</name>
+        <parent>
+            <name>PDI Plugins</name>
+        </parent>
+    </category>
+
+    <description>Send messages to a rocketchat server. Target channel, sender alias and sender icon are customizable.</description>
+    <documentation_url>https://github.com/Talon24/kettle-rocketchat</documentation_url>
+    <author>Talon24</author>
+    <forum_url>https://github.com/Talon24/kettle-rocketchat</forum_url>
+    <cases_url>https://github.com/Talon24/kettle-rocketchat/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/Talon24/kettle-rocketchat/issues</support_url>
+    <versions>
+    <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <package_url>https://github.com/Talon24/kettle-rocketchat/releases/download/1.0.0/rocketchat-plugin.zip</package_url>
+        <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+        </development_stage>
+    </version>
+    </versions>
+  </market_entry>
+
+<market_entry>
+    <id>GetIpPlugin</id>
+    <type>Step</type>
+    <name>PDI Get IP Plugin</name>
+    <category>
+      <name>Utility</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin allows you to obtain the Public IP of the server where kettle is running</description>
+    <author>Reynaldo Claros</author>
+    <author_url>https://reynaldoclaros.com</author_url>
+    <author_logo>https://avatars.githubusercontent.com/u/17392358?v=4</author_logo>
+    <documentation_url>https://github.com/rclaros/pdi-get-ip-plugin/blob/main/README.md</documentation_url>
+    <cases_url>https://github.com/rclaros/pdi-get-ip-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <img>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <name>1.0</name>
+        <package_url>https://github.com/rclaros/pdi-get-ip-plugin/raw/main/releases/pdi-get-ip-plugin-1.0.0.zip</package_url>
+        <samples_url>https://github.com/rclaros/pdi-get-ip-plugin</samples_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots> 
+     <screenshot>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+ <market_entry>
+    <id>datafor-modeler</id>
+    <type>Platform</type>
+    <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
+    <small_img/>
+    <name>Modeler</name>
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://help.datafor.com.cn/docs/en/</documentation_url>
+    <description>
+      <![CDATA[
+<article>
+<h1>Modeler facilitates users in building Mondrian Schema models through visual modeling.</h1>
+
+<h2>Features:</h2>
+<ul>
+<li>Supports Mondrian 4</li>
+<li>Compatible with star schema, snowflake schema, and multiple fact tables</li>
+<li>Provides support for calculated fields, calculated measures, and cross-fact table calculations</li>
+<li>Enables dimension field formatting and data dictionary integration</li>
+</ul>
+</article>
+<br><br>
+For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>please visit our site</a>.<br>
+      ]]>
+    </description>
+    <author>Datafor</author>
+    <author_url>https://www.datafor.com.cn</author_url>
+    <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
+    <license>Commercial</license>
+    <dependencies>Mondrian</dependencies>
+    <versions>
+	<version>
+		<branch>STABLE</branch>
+		<version>3.08</version>
+		<name>Stable 3.08</name>
+		<package_url>
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
+		</package_url>
+		<description>Release 3.08</description>
+		<min_parent_version>3.00</min_parent_version>
+		<development_stage>
+			<lane>Community</lane>
+			<phase>4</phase>
+		</development_stage>
+	  </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler1.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler2.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler3.jpg</screenshot>
+    </screenshots>
+  </market_entry>
+
 </market>

@@ -13237,7 +13237,7 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
   </market_entry>
 
  <market_entry>
-    <id>datafor-auth,datafor-modeler</id>
+    <id>datafor-modeler</id>
     <type>Platform</type>
     <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
     <small_img/>

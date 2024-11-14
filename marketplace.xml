@@ -13131,7 +13131,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
 </ul>
 </article>
 <br><br>
-For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>please visit our site</a>.<br>
+For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>please visit our site</a>.<br>
       ]]>
     </description>
     <author>Datafor</author>
@@ -13142,13 +13142,13 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>6.06</version>
-		<name>Stable 6.06</name>
+		<version>6.08.2</version>
+		<name>Stable 6.08.2</name>
 		<package_url>
 			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.08.2.zip/download
 		</package_url>
-		<description>Release 6.06</description>
-		<min_parent_version>9.00</min_parent_version>
+		<description>Release 6.08.2</description>
+		<min_parent_version>6.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
 			<phase>4</phase>
@@ -13235,7 +13235,7 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
      <screenshot>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</screenshot>
     </screenshots>
   </market_entry>
-
+	
  <market_entry>
     <id>datafor-modeler</id>
     <type>Platform</type>
@@ -13293,5 +13293,4 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler3.jpg</screenshot>
     </screenshots>
   </market_entry>
-
 </market>
